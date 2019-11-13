@@ -1,19 +1,25 @@
+<!--<body>
+    <button mat-button [matMenuTriggerFor]="menu" class="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item class="menu">Item 1</button>
+        <button mat-menu-item class="menu">Item 2</button>
+    </mat-menu>
+</body>-->
+
 <header>
     <div class="ancho">
         <div class="logo">
-            <p><a href="index.html">ProRchile</a></p>
+            <p><a routerLink="index.html">ProRchile</a></p>
         </div>
 
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Quienes Somos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Trayectoria</a></li>
+                <li><a routerLink="/cosa">Inicio</a></li>
+                <li><a routerLink="/footer">Productos</a></li>
+                <li><a routerLink="/main">Quienes Somos</a></li>
+                <li><a routerLink="#">Servicios</a></li>
+                <li><a routerLink="#">Trayectoria</a></li>
             </ul>
         </nav>
     </div>
 </header>
-
-<br>
