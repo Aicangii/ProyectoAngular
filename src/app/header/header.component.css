@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    background: #1ABC9C;
+    height: 70px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ancho {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    /*background: red;*/
+}
+
+.logo p a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    /*background: blue;*/
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 70%;
+    height: 70px;
+    /*background: olive;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: rale;
+}
+
+nav ul li a:hover {
+    color: #444;
+}
+
+@font-face {
+    font-family: rale;
+    src: url(/header/fuentes/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table.tabla1 {
+    background-color: #c1f3f0;
+    width: 15px;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+a.link {
+    color: #27a09a;
+    text-decoration: none;
+}
+
+.carousel {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border: none;
+}
+
+.botones {
+    background-color: #c1f3f0;
+    color: #27a09a;
+}
+
+#imagen {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
