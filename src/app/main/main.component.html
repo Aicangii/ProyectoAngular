@@ -1,1 +1,22 @@
 <p>Gatito LEO LEO LEO!!!</p>
+
+<body>
+    <table class="table">
+
+        <th>ID</th>
+        <th>IMAIL</th>
+        <th>Nombre</th>
+        <th>COMENTARIOS</th>
+
+
+        <tr *ngFor="let comentario of comentarios">
+
+            <td *ngIf="comentario.id < 10">{{comentario.id}}</td>
+            <td *ngIf="comentario.id < 10">{{comentario.email}}</td>
+            <td *ngIf="comentario.id < 10">{{comentario.name}}</td>
+            <td *ngIf="comentario.id < 10">{{comentario.body}}</td>
+
+        </tr>
+
+    </table>
+</body>

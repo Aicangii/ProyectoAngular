@@ -14,6 +14,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ProbandoService } from './servicios/probando.service';
 import {MatDialogModule} from '@angular/material/dialog';
 import { CosaComponent } from './cosa/cosa.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 
 
@@ -27,7 +28,8 @@ import { CosaComponent } from './cosa/cosa.component';
     FooterComponent,
     MainComponent,
     MenuComponent,
-    CosaComponent
+    CosaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+.table {
+    width: 100%;
+    /* border: 2px solid #c1f3f0;*/
+}
+
+th,
+td {
+    border: 2px solid #27a09a;
+}
+
+th {
+    background-color: #c1f3f0;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #c1f3f0;
+}
